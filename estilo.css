@@ -1,0 +1,225 @@
+#titulo{
+    text-align: center;
+    color: white;
+    padding-top: 10%;
+    font-size: 70px;
+    text-align: center;
+
+}
+#subtitulo{
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 30px;
+    text-align:center;
+}
+#acao{
+    color: white;
+    border: 1px solid white;
+    padding: 7px 10px 8px 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-decoration: initial;
+}
+#imagem-fundo {
+    background: url(fundo.jpg);
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+.video{
+    float: left;
+    position: relative;
+}
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.dois {
+    width: 40%;
+}
+.quatro {
+    width: 15%;
+}
+.tres {
+    width: 29%;
+    padding: 0 2%;
+}
+.justificado{
+    text-align: justify;
+    padding-left: 30%;
+    padding-right: 10%;
+}
+.centralizado{
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 10%;
+}
+#selecao {
+    -background-c
+    text-align: center;
+}
+#caixa{
+    width: 60%;
+    height: 50%;
+    border: 3px solid tomato;
+    text-align: center;
+}
+.section {
+    padding: 20px;
+    float: left;
+}
+.destaque{
+    background-color: black;
+}
+.destaque2{
+    background-color: white;
+    height: 80%;
+}
+.quatro{
+    width: 15%;
+}
+.icone{
+    width: 51px;
+}
+body{
+    background-color: black;
+}
+.imgeco{
+    width: 100%;
+    height: 45%;
+}
+.destaque3 {
+    background-color: rgb(19, 20, 48);
+    height: 100%;
+}
+.coluna2 {
+    float: left;
+    padding: 60px 5%;
+    position: relative;
+}
+.tres {
+    width: 22%;
+}
+.sobre1{
+    background-color: black;
+    height: 100%;
+}
+.individuo{
+    width:  100%;
+    padding-top: 20%;
+}
+.esquerda{
+    text-align: left;
+}
+.destaque4{
+    background-color: white;
+    height: 30%;
+}
+#logo{ 
+    width: 96px;
+    position: fixed;
+    top: 10px;
+    margin-left: 2%;
+    -border: 1px rgb(54, 86, 105) solid;
+}
+#menu{
+    -border: 1px red solid;
+    float: right;
+    list-style: none;
+    margin-top: 0px;
+}
+#acao2{
+    color: white;
+    padding: 7px 10px 8px 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-decoration: initial;
+}
+.downdrop{
+    position: relative;
+    display: inline block;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+
+}
+li {
+    float: left;
+    padding: 20 7 20 7;
+
+}
+li:hover{
+    background-color: rgb(52, 52, 52);
+}
+html,body{
+    margin: 0;
+}
+.destaque5{
+    background-color: black;
+    height: 50%;
+}
+.letraw{
+    color: white;
+}
+.desordenada{
+    padding-left: 90px;
+    list-style: circle;
+    float: left;
+    margin-top: 0%;
+}
+.ordenada{
+    padding-left: 90px;
+    list-style: decimal;
+    float: left;
+    margin-top: 0%;
+}
+.alfabetica{
+    padding-left: 90px;
+    list-style: lower-alpha;
+    float: left;
+    margin-top: 0%;
+}
+.destaque6{
+    background-color: rgb(31, 57, 110);
+    height: 60%;
+}
+.destaque7{
+    background-color: rgb(71, 67, 67);
+    height: 70%;
+}
+.imggr{
+    width: 43%;
+    height: 72%;
+}
+#acao3{
+    color:red;
+    padding: 7px 10px 8px 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-decoration: initial;
+}
+/*@media screen and (max-width: 600px) {
+    #menu{
+        visibility: hidden;
+    }
+    .coluna, .dois, .tres, .quatro{
+        display: block;
+        width: 80%;
+        padding: 0%;
+        margin: 10px auto;
+        float: none;       
+    }
+    #logo {
+        width: 100%;
+        position: relative;
+        text-align: center;
+        padding: 0;
+    }   
+}
